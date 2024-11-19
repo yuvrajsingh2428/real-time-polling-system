@@ -1,0 +1,16 @@
+# Ignore .env file to prevent sensitive information from being committed
+.env
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs, cache, and other temporary files
+*.log
+*.cache
+
+# Ignore build directories
+/dist
+/build
+
+# Ignore Docker files if you're using Docker for local builds
+.docker
